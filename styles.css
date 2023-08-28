@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: antiquewhite;
+  width: 800px;
+  height: 1000px;
+}
+
+.stori-hringur {
+  position: absolute;
+  background-color: orange;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  opacity: 50%;
+  top: 125px;
+  right: 75px;
+}
+
+.litli-hringur {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-color: grey;
+  opacity: 50%;
+  border-radius: 50%;
+  top: 400px;
+  left: 120px;
+}
