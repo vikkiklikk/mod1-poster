@@ -2,6 +2,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: 'Fjalla One', sans-serif;;
 }
 
 /* container around the poster itself*/
@@ -42,6 +43,10 @@ body {
   align-items: center;
   margin-left: 20px;
   margin-right: 20px;
+}
+
+.poster-header h3 {
+  letter-spacing: 2px;
 }
 /* seperate horizontal line container so that it does not rotate*/
 .hr-container {
