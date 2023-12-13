@@ -2,7 +2,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'Fjalla One', sans-serif;;
+  font-family: "Fjalla One", sans-serif;
 }
 
 /* container around the poster itself*/
@@ -34,6 +34,7 @@ body {
   background-color: grey;
   opacity: 30%;
   border-radius: 50%;
+  z-index: 50;
 }
 
 /* header section of the poster */
@@ -60,4 +61,18 @@ body {
   margin-left: 20px;
   margin-top: 80px;
   width: 165px;
+}
+
+.musician-image {
+  position: absolute;
+  height: 600px;
+  top: 100px;
+}
+
+.poster-title {
+  position: absolute;
+  font-size: 32px;
+  bottom: 5px;
+  z-index: 100px;
+  margin-left: 20px;
 }
